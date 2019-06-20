@@ -1,0 +1,283 @@
+{"intents": [
+        {"tag": "Lời mở đầu",
+         "patterns": ["Lời Chào Từ Khách Hàng"],
+         "responses": ["Quý khách muốn mua điện thoại di động như thế nào ạ? Ở đây chúng tôi bán Điện Thoại Di Động của các hãng sau:\n1.Apple (Iphone)\n2.Samsung\n3.Oppo\n4.Huawei\n5.Xiaomi"],
+         "context_set": ""
+        },
+        {"tag": "Apple",
+         "patterns": ["Apple", "Iphone"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Điện thoại iPhone Xs Max 512GB\n2.Điện thoại iPhone Xs Max 256GB\n3.Điện thoại iPhone Xs 256GB\n4.Điện thoại iPhone Xs Max 64GB\n5.Điện thoại iPhone X 256GB"],
+         "context_set": ""
+        },
+        {"tag": "Samsung",
+         "patterns": ["Samsung"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Điện thoại Samsung Galaxy S10+ (512GB)\n2.Điện thoại Samsung Galaxy S10+ 128GB Bạc Đa Sắc\n3.Điện thoại Samsung Galaxy S10+\n4.Điện thoại Samsung Galaxy Note 9\n5.Điện thoại Samsung Galaxy Note 9 512GB"],
+         "context_set": ""
+        },
+        {"tag": "Oppo",
+         "patterns": ["Oppo"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Điện thoại OPPO Reno 10x Zoom Edition\n2.Điện thoại OPPO R17 Pro\n3.Điện thoại OPPO Find X\n4.Điện thoại OPPO Reno\n5.Điện thoại OPPO F11 Pro 128GB Xám Tinh Vân"],
+         "context_set": ""
+        },
+        {"tag": "Huawei",
+         "patterns": ["Huawei"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Điện thoại Huawei P30 Pro\n2.Điện thoại Huawei P30\n3.Điện thoại Huawei Mate 20 Pro\n4.Điện thoại Huawei P30 Lite\n5.Điện thoại Huawei Nova 3i"],
+         "context_set": ""
+        },
+        {"tag": "Xiaomi",
+         "patterns": ["Xiaomi"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Điện thoại Xiaomi Mi 8\n2.Điện thoại Xiaomi Mi 9 SE\n3.Điện thoại Xiaomi Mi 8 Lite\n4.Điện thoại Xiaomi Mi 8 Lite 6GB/128GB\n5.Điện thoại Xiaomi Redmi Note 7 64GB\n"],
+         "context_set": ""
+        },
+        {"tag": "Giá: iPhone Xs Max 512GB",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "iPhone Xs", "Xs Max", "Xs Max 512GB"],
+         "responses": ["Điện thoại iPhone Xs Max 512GB có giá 39.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: iPhone Xs Max 256GB",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "iPhone Xs", "Xs Max", "Xs Max 256GB"],
+         "responses": ["Điện thoại iPhone Xs Max 256GB có giá 35.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: iPhone Xs 256GB",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "iPhone Xs", "iXs 256GB"],
+         "responses": ["Điện thoại iPhone Xs 256GB có giá 32.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: iPhone Xs Max 64GB",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "iPhone Xs", "Xs Max", "Xs Max 64GB"],
+         "responses": ["Điện thoại iPhone Xs Max 64GB có giá 29.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: iPhone X 256GB",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "iPhone X", "X 256GB"],
+         "responses": ["Điện thoại iPhone X 256GB có giá 27.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Samsung Galaxy S10+ (512GB)",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Samsung Galaxy", "Galaxy S10+", "Galaxy S10+ (512GB)"],
+         "responses": ["Điện thoại Samsung Galaxy S10+ (512GB) có giá 25.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Samsung Galaxy S10+ 128GB",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Samsung Galaxy", "Galaxy S10+", "Galaxy S10+ 128GB"],
+         "responses": ["Điện thoại Samsung Galaxy S10+ 128GB Bạc Đa Sắc có giá 23.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Samsung Galaxy S10+",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Samsung Galaxy", "Galaxy S10+", "Galaxy S10+"],
+         "responses": ["Điện thoại Samsung Galaxy S10+ có giá 19.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Samsung Galaxy Note 9",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Samsung Galaxy", "Galaxy Note", "Note 9", "alaxy Note 9"],
+         "responses": ["Điện thoại Samsung Galaxy Note 9 có giá 19.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Samsung Galaxy Note 9 512GB",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Samsung Galaxy", "Galaxy Note", "Note 9", "Galaxy Note 9 512GB"],
+         "responses": ["Điện thoại Samsung Galaxy Note 9 512GB có giá 21.490.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: OPPO Reno 10x Zoom Edition",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Reno 10x", "Reno 10x Zoom Edition"],
+         "responses": ["Điện thoại OPPO Reno 10x Zoom Edition có giá 20.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: OPPO R17 Pro",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "OPPO R17", "R17 Pro", "OPPO R17 Pro"],
+         "responses": ["Điện thoại OPPO R17 Pro có giá 13.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: OPPO Find X",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "OPPO Find", "Find X", "OPPO Find X"],
+         "responses": ["Điện thoại OPPO Find X có giá 14.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: OPPO Reno",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "OPPO Reno"],
+         "responses": ["Điện thoại OPPO Reno có giá 12.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: OPPO F11 Pro 128GB",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "OPPO F11", "F11 Pro", "F11 Pro 128GB"],
+         "responses": ["Điện thoại OPPO F11 Pro 128GB Xám Tinh Vân có giá 8.490.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Điện thoại Huawei P30 Pro",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "P30 Pro", "Huawei P30 Pro"],
+         "responses": ["Điện thoại Huawei P30 Pro có giá 19.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Điện thoại Huawei P30",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Huawei P30"],
+         "responses": ["Điện thoại Huawei P30 có giá 13.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Điện thoại Huawei Mate 20 Pro",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Huawei Mate", "Mate 20", "Mate 20 Pro", "Huawei Mate 20 Pro"],
+         "responses": ["Điện thoại Huawei Mate 20 Pro có giá 15.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Điện thoại Huawei P30 Lite",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Huawei P30 Lite"],
+         "responses": ["Điện thoại Huawei P30 Lite có giá 7.490.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Huawei Nova 3i",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Huawei Nova", "Nova 3i"],
+         "responses": ["Điện thoại Huawei Nova 3i có giá 5.490.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Xiaomi Mi 8",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Xiaomi Mi", "Mi 8"],
+         "responses": ["Điện thoại Xiaomi Mi 8 có giá 10.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Xiaomi Mi 9 SE",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Xiaomi Mi", "Mi 9", "Mi 9 SE"],
+         "responses": ["Điện thoại Xiaomi Mi 9 SE có giá 7.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Xiaomi Mi 8 Lite",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Xiaomi Mi", "Mi 8", "Mi 8 Lite"],
+         "responses": ["Điện thoại Xiaomi Mi 8 Lite có giá 5.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Xiaomi Mi 8 Lite 6GB/128GB",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Xiaomi Mi", "Mi 8 Lite", "Mi 8 Lite 6GB/128GB"],
+         "responses": ["Điện thoại Xiaomi Mi 8 Lite 6GB/128GB có giá 6.490.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Xiaomi Redmi Note 7 64GB",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Xiaomi Redmi", "Redmi Note", "Redmi Note 7", "Xiaomi Redmi Note 7 64GB"],
+         "responses": ["Điện thoại Xiaomi Redmi Note 7 64GB có giá 4.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: iPhone Xs Max 512GB",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "iPhone Xs", "Xs Max", "iPhone Xs Max 512GB"],
+         "responses": ["Thông số kỹ thuật của Điện thoại iPhone Xs Max 512GB:\nMàn hình:\tOLED, 6.5\", Super Retina\nHệ điều hành:\tiOS 12\nCamera sau:\tChính 12 MP & Phụ 12 MP\nCamera trước:\t7 MP\nCPU:\tApple A12 Bionic 6 nhân\nRAM:\t4 GB\nBộ nhớ trong:\t512 GB\nThẻ SIM:\tNano SIM & eSIM, Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: iPhone Xs Max 256GB",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "iPhone Xs", "Xs Max", "iPhone Xs Max 256GB"],
+         "responses": ["Thông số kỹ thuật của Điện thoại iPhone Xs Max 256GB:\nMàn hình:\tOLED, 6.5\", Super Retina\nHệ điều hành:\tiOS 12\nCamera sau:\tChính 12 MP & Phụ 12 MP\nCamera trước:\t7 MP\nCPU:\tApple A12 Bionic 6 nhân\nRAM:\t4 GB\nBộ nhớ trong:\t256 GB\nThẻ SIM:\tNano SIM & eSIM, Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: iPhone Xs 256GB",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "iPhone Xs", "iPhone Xs 256GB"],
+         "responses": ["Thông số kỹ thuật của Điện thoại iPhone Xs 256GB:\nMàn hình:\tOLED, 5.8\", Super Retina\nHệ điều hành:\tiOS 12\nCamera sau:\tChính 12 MP & Phụ 12 MP\nCamera trước:\t7 MP\nCPU:\tApple A12 Bionic 6 nhân\nRAM:\t4 GB\nBộ nhớ trong:\t256 GB\nThẻ SIM:\tNano SIM & eSIM, Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: iPhone Xs Max 64GB",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "iPhone Xs", "Xs Max", "iPhone Xs Max 64GB"],
+         "responses": ["Thông số kỹ thuật của Điện thoại iPhone Xs Max 64GB:\nMàn hình:\tOLED, 6.5\", Super Retina\nHệ điều hành:\tiOS 12\nCamera sau:\tChính 12 MP & Phụ 12 MP\nCamera trước:\t7 MP\nCPU:\tApple A12 Bionic 6 nhân\nRAM:\t4 GB\nBộ nhớ trong:\t64 GB\nThẻ SIM:\tNano SIM & eSIM, Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: iPhone X 256GB",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "giá tiền", "bao nhiêu tiền", "iPhone X", "iPhone X 256GB"],
+         "responses": ["Thông số kỹ thuật của Điện thoại iPhone X 256GB:\nMàn hình:\tOLED, 5.8\", Super Retina\nHệ điều hành:\tiOS 12\nCamera sau:\tChính 12 MP & Phụ 12 MP\nCamera trước:\t7 MP\nCPU:\tApple A11 Bionic 6 nhân\nRAM:\t3 GB\nBộ nhớ trong:\t256 GB\nThẻ SIM:\t1 Nano SIM, Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Samsung Galaxy S10+ (512GB)",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Samsung Galaxy", "Galaxy S10+", "Galaxy S10+ (512GB)"],
+         "responses": ["Thông số kỹ thuật của Điện thoại Samsung Galaxy S10+ (512GB):\nMàn hình:\tDynamic AMOLED, 6.4\", Quad HD+ (2K+)\nHệ điều hành:\tAndroid 9.0 (Pie)\nCamera sau:\tChính 12 MP & Phụ 12 MP, 16 MP\nCamera trước:\tChính 10 MP & Phụ 8 MP\nCPU:\tExynos 9820 8 nhân 64-bit\nRAM:\t8 GB\nBộ nhớ trong:\t512 GB\nThẻ nhớ:\tMicroSD, hỗ trợ tối đa 512 GB\nThẻ SIM:\t2 SIM Nano (SIM 2 chung khe thẻ nhớ), Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Samsung Galaxy S10+ 128GB",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Samsung Galaxy", "Galaxy S10+", "Galaxy S10+ 128GB"],
+         "responses": ["Thông số kỹ thuật của Điện thoại Samsung Galaxy S10+ 128GB Bạc Đa Sắc:\nMàn hình:\tDynamic AMOLED, 6.4\", Quad HD+ (2K+)\nHệ điều hành:\tAndroid 9.0 (Pie)\nCamera sau:\tChính 12 MP & Phụ 12 MP, 16 MP\nCamera trước:\tChính 10 MP & Phụ 8 MP\nCPU:\tExynos 9820 8 nhân 64-bit\nRAM:\t8 GB\nBộ nhớ trong:\t128 GB\nThẻ nhớ:\tMicroSD, hỗ trợ tối đa 512 GB\nThẻ SIM:\t2 SIM Nano (SIM 2 chung khe thẻ nhớ), Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Samsung Galaxy S10+",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Samsung Galaxy", "Galaxy S10+", "Galaxy S10+"],
+         "responses": ["Thông số kỹ thuật của Điện thoại Samsung Galaxy S10+:\nMàn hình:\tDynamic AMOLED, 6.4\", Quad HD+ (2K+)\nHệ điều hành:\tAndroid 9.0 (Pie)\nCamera sau:\tChính 12 MP & Phụ 12 MP, 16 MP\nCamera trước:\tChính 10 MP & Phụ 8 MP\nCPU:\tExynos 9820 8 nhân 64-bit\nRAM:\t8 GB\nBộ nhớ trong:\t128 GB\nThẻ nhớ:\tMicroSD, hỗ trợ tối đa 512 GB\nThẻ SIM:\t2 SIM Nano (SIM 2 chung khe thẻ nhớ), Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Samsung Galaxy Note 9",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Samsung Galaxy", "Galaxy Note", "Note 9", "Galaxy Note 9"],
+         "responses": ["Thông số kỹ thuật của Điện thoại Samsung Galaxy Note 9:\nMàn hình:\tSuper AMOLED, 6.4\", Quad HD+ (2K+)\nHệ điều hành:\tAndroid 8.1 (Oreo)\nCamera sau:\tChính 12 MP & Phụ 12 MP\nCamera trước:\t8 MP\nCPU:\tExynos 9810 8 nhân 64-bit\nRAM:\t6 GB\nBộ nhớ trong:\t128 GB\nThẻ nhớ:\tMicroSD, hỗ trợ tối đa 512 GB\nThẻ SIM:\t2 SIM Nano (SIM 2 chung khe thẻ nhớ), Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Samsung Galaxy Note 9 512GB",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Samsung Galaxy", "Galaxy Note", "Note 9", "Galaxy Note 9 512GB"],
+         "responses": ["Thông số kỹ thuật của Điện thoại Samsung Galaxy Note 9 512GB:\nMàn hình:\tSuper AMOLED, 6.4\", Quad HD+ (2K+)\nHệ điều hành:\tAndroid 8.1 (Oreo)\nCamera sau:\tChính 12 MP & Phụ 12 MP\nCamera trước:\t8 MP\nCPU:\tExynos 9810 8 nhân 64-bit\nRAM:\t8 GB\nBộ nhớ trong:\t512 GB\nThẻ nhớ:\tMicroSD, hỗ trợ tối đa 512 GB\nThẻ SIM:\t2 SIM Nano (SIM 2 chung khe thẻ nhớ), Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: OPPO Reno 10x Zoom Edition",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Reno 10x", "Reno 10x Zoom Edition"],
+         "responses": ["Thông số kỹ thuật của Điện thoại OPPO Reno 10x Zoom Edition:\nMàn hình:\tAMOLED, 6.6\", Full HD+\nHệ điều hành:\tAndroid 9 Pie (Android One)\nCamera sau:\tChính 48 MP & Phụ 13 MP, 8 MP\nCamera trước:\t16 MP\nCPU:\tSnapdragon 855 8 nhân 64-bit\nRAM:\t8 GB\nBộ nhớ trong:\t256 GB\nThẻ nhớ:\tMicroSD, hỗ trợ tối đa 256 GB\nThẻ SIM:\t2 SIM Nano (SIM 2 chung khe thẻ nhớ), Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: OPPO R17 Pro",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "OPPO R17", "R17 Pro", "OPPO R17 Pro"],
+         "responses": ["Thông số kỹ thuật của Điện thoại OPPO R17 Pro:\nMàn hình:\tAMOLED, 6.4\", Full HD+\nHệ điều hành:\tColorOS 5.2 (Android 8.1)\nCamera sau:\tChính 12 MP & Phụ 20 MP, TOF 3D\nCamera trước:\t25 MP\nCPU:\tSnapdragon 710 8 nhân 64-bit\nRAM:\t8 GB\nBộ nhớ trong:\t128 GB\nThẻ SIM:\t2 Nano SIM, Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: OPPO Find X",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "OPPO Find", "Find X", "OPPO Find X"],
+         "responses": ["Thông số kỹ thuật của Điện thoại OPPO Find X:\nMàn hình:\tAMOLED, 6.42\", Full HD+\nHệ điều hành:\tAndroid 8.1 (Oreo)\nCamera sau:\tChính 16 MP & Phụ 20 MP\nCamera trước:\t25 MP\nCPU:\tSnapdragon 845 8 nhân\nRAM:\t8 GB\nBộ nhớ trong:\t256 GB\nThẻ SIM:\t2 Nano SIM, Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: OPPO Reno",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "OPPO Reno"],
+         "responses": ["Điện thoại OPPO Reno:\nMàn hình:\tAMOLED, 6.4\", Full HD+\nHệ điều hành:\tAndroid 9.0 (Pie)\nCamera sau:\tChính 48 MP & Phụ 5 MP\nCamera trước:\t16 MP\nCPU:\tSnapdragon 710 8 nhân 64-bit\nRAM:\t6 GB\nBộ nhớ trong:\t256 GB\nThẻ SIM:\t2 Nano SIM, Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: OPPO F11 Pro 128GB",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "OPPO F11", "F11 Pro", "F11 Pro 128GB"],
+         "responses": ["Thông số kỹ thuật của Điện thoại OPPO F11 Pro 128GB Xám Tinh Vân:\nMàn hình:\tLTPS LCD, 6.5\", Full HD+\nHệ điều hành:\tAndroid 9.0 (Pie)\nCamera sau:\tChính 48 MP & Phụ 5 MP\nCamera trước:\t16 MP\nCPU:\tMediaTek Helio P70 8 nhân\nRAM:\t6 GB\nBộ nhớ trong:\t128 GB\nThẻ nhớ:\tMicroSD, hỗ trợ tối đa 256 GB\nThẻ SIM:\t2 SIM Nano (SIM 2 chung khe thẻ nhớ), Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Điện thoại Huawei P30 Pro",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "P30 Pro", "Huawei P30 Pro"],
+         "responses": ["Thông số kỹ thuật của Điện thoại Huawei P30 Pro:\nMàn hình:\tOLED, 6.47\", Full HD+\nHệ điều hành:\tAndroid 9.0 (Pie)\nCamera sau:\tChính 40 MP & Phụ 20 MP, 8 MP, TOF 3D\nCamera trước:\t32 MP\nCPU:\tHisilicon Kirin 980 8 nhân 64-bit\nRAM:\t8 GB\nBộ nhớ trong:\t256 GB\nThẻ SIM:\t2 Nano SIM, Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Điện thoại Huawei P30",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Huawei P30"],
+         "responses": ["Thông số kỹ thuật của Điện thoại Huawei P30:\nMàn hình:\tOLED, 6.1\", Full HD+\nHệ điều hành:\tAndroid 9.0 (Pie)\nCamera sau:\tChính 40 MP & Phụ 16 MP, 8 MP\nCamera trước:\t32 MP\nCPU:\tHisilicon Kirin 980 8 nhân 64-bit\nRAM:\t8 GB\nBộ nhớ trong:\t128 GB\nThẻ SIM:\t2 Nano SIM, Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Điện thoại Huawei Mate 20 Pro",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Huawei Mate", "Mate 20", "Mate 20 Pro", "Huawei Mate 20 Pro"],
+         "responses": ["Thông số kỹ thuật của Điện thoại Huawei Mate 20 Pro:\nMàn hình:\tOLED, 6.39\", Quad HD+ (2K+)\nHệ điều hành:\tAndroid 9.0 (Pie)\nCamera sau:\tChính 40 MP & Phụ 20 MP, 8 MP\nCamera trước:\t24 MP\nCPU:\tHisilicon Kirin 980 8 nhân 64-bit\nRAM:\t6 GB\nBộ nhớ trong:\t128 GB\nThẻ nhớ:\tNM card, hỗ trợ tối đa 256 GB\nThẻ SIM:\t2 SIM Nano (SIM 2 chung khe thẻ nhớ), Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Điện thoại Huawei P30 Lite",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Huawei P30 Lite"],
+         "responses": ["Thông số kỹ thuật của Điện thoại Huawei P30 Lite:\nMàn hình:\tIPS LCD, 6.15\", Full HD+\nHệ điều hành:\tAndroid 9.0 (Pie)\nCamera sau:\tChính 24 MP & Phụ 8 MP, 2 MP\nCamera trước:\t32 MP\nCPU:\tHiSilicon Kirin 710\nRAM:\t6 GB\nBộ nhớ trong:\t128 GB\nThẻ nhớ:\tMicroSD, hỗ trợ tối đa 512 GB\nThẻ SIM:\t2 SIM Nano (SIM 2 chung khe thẻ nhớ), Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Huawei Nova 3i",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Huawei Nova", "Nova 3i"],
+         "responses": ["Thông số kỹ thuật của Điện thoại Huawei Nova 3i:\nMàn hình:\tLTPS LCD, 6.3\", Full HD+\nHệ điều hành:\tAndroid 8.1 (Oreo)\nCamera sau:\tChính 16 MP & Phụ 2 MP\nCamera trước:\tChính 24 MP & Phụ 2 MP\nCPU:\tHiSilicon Kirin 710\nRAM:\t4 GB\nBộ nhớ trong:\t128 GB\nThẻ nhớ:\tMicroSD, hỗ trợ tối đa 256 GB\nThẻ SIM:\t2 SIM Nano (SIM 2 chung khe thẻ nhớ), Hỗ trợ 4G\n"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Xiaomi Mi 8",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Xiaomi Mi", "Mi 8"],
+         "responses": ["Thông số kỹ thuật của Điện thoại Xiaomi Mi 8:\nMàn hình:\tSuper AMOLED, 6.21\", Full HD+\nHệ điều hành:\tAndroid 8.1 (Oreo)\nCamera sau:\tChính 12 MP & Phụ 12 MP\nCamera trước:\t20 MP\nCPU:\tSnapdragon 845 8 nhân\nRAM:\t6 GB\nBộ nhớ trong:\t64 GB\nThẻ SIM:\t2 Nano SIM, Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Xiaomi Mi 9 SE",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Xiaomi Mi", "Mi 9", "Mi 9 SE"],
+         "responses": ["Thông số kỹ thuật của Điện thoại Xiaomi Mi 9 SE:\nMàn hình:\tSuper AMOLED, 5.97\", Full HD+\nHệ điều hành:\tAndroid 9.0 (Pie)\nCamera sau:\tChính 48 MP & Phụ 13 MP, 8 MP\nCamera trước:\t20 MP\nCPU:\tSnapdragon 712 8 nhân 64-bit\nRAM:\t6 GB\nBộ nhớ trong:\t64 GB\nThẻ SIM:\t2 Nano SIM, Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Điện thoại Xiaomi Mi 8 Lite",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Xiaomi Mi", "Mi 8", "Mi 8 Lite"],
+         "responses": ["Thông số kỹ thuật của Điện thoại Xiaomi Mi 8 Lite:\nMàn hình:\tIPS LCD, 6.26\", Full HD+\nHệ điều hành:\tAndroid 8.1 (Oreo)\nCamera sau:\tChính 12 MP & Phụ 5 MP\nCamera trước:\t24 MP\nCPU:\tQualcomm Snapdragon 660 8 nhân\nRAM:\t4 GB\nBộ nhớ trong:\t64 GB\nThẻ nhớ:\tMicroSD, hỗ trợ tối đa 128 GB\nThẻ SIM:\t2 SIM Nano (SIM 2 chung khe thẻ nhớ), Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Xiaomi Mi 8 Lite 6GB/128GB",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Xiaomi Mi", "Mi 8 Lite", "Mi 8 Lite 6GB/128GB"],
+         "responses": ["Thông số kỹ thuật của Điện thoại Xiaomi Mi 8 Lite 6GB/128GB:\nMàn hình:\tIPS LCD, 6.26\", Full HD+\nHệ điều hành:\tAndroid 8.1 (Oreo)\nCamera sau:\tChính 12 MP & Phụ 5 MP\nCamera trước:\t24 MP\nCPU:\tQualcomm Snapdragon 660 8 nhân\nRAM:\t6 GB\nBộ nhớ trong:\t128 GB\nThẻ nhớ:\tMicroSD, hỗ trợ tối đa 128 GB\nThẻ SIM:\t2 SIM Nano (SIM 2 chung khe thẻ nhớ), Hỗ trợ 4G"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Xiaomi Redmi Note 7 64GB",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Xiaomi Redmi", "Redmi Note", "Redmi Note 7", "Redmi Note 7 64GB"],
+         "responses": ["Thông số kỹ thuật của Điện thoại Xiaomi Redmi Note 7 64GB:\nMàn hình:\tIPS LCD, 6.3\", Full HD+\nHệ điều hành:\tAndroid 9.0 (Pie)\nCamera sau:\tChính 48 MP & Phụ 5 MP\nCamera trước:\t13 MP\nCPU:\tQualcomm Snapdragon 660 8 nhân\nRAM:\t4 GB\nBộ nhớ trong:\t64 GB\nThẻ nhớ:\tMicroSD, hỗ trợ tối đa 256 GB\nThẻ SIM:\t2 SIM Nano (SIM 2 chung khe thẻ nhớ), Hỗ trợ 4G"],
+         "context_set": ""
+        }
+   ]
+}

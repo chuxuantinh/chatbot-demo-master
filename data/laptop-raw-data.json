@@ -1,0 +1,363 @@
+{"intents": [
+        {"tag": "Lời mở đầu",
+         "patterns": ["Lời Chào Từ Khách Hàng"],
+         "responses": ["Quý khách muốn mua laptop như thế nào ạ? Ở đây chúng tôi bán Laptop của các hãng sau:\n1.Apple (Macbook)\n2.HP\n3.Asus\n4.Dell\n5.Lenovo\n6.Acer\n7.MSI"],
+         "context_set": ""
+        },
+        {"tag": "Apple",
+         "patterns": ["Apple", "Macbook"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Laptop Apple Macbook Air 2017 i5 1.8GHz/8GB/128GB (MQD32SA/A)\n2.Laptop Apple Macbook Air 2018 i5/8GB/128GB (MREE2SA/A)\n3.Laptop Apple Macbook Air 2018 i5/8GB/128GB (MRE82SA/A)\n4.Laptop Apple Macbook Air 2018 i5/8GB/256GB (MREF2SA/A)\n5.Laptop Apple Macbook Pro Touch MR9Q2SA/A i5 2.3GHz/8GB/256GB (2018)"],
+         "context_set": ""
+        },
+        {"tag": "HP",
+         "patterns": ["HP"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Laptop HP 15 da0048TU N5000/4GB/500GB/Win10/(4ME63PA)\n2.Laptop HP 15 da0055TU i3 7020U/4GB/1TB/Win10/(4NA89PA)\n3.Laptop HP 15 da0054TU i3 7020U/4GB/500GB/Win10/(4ME68PA)\n4.Laptop HP 15 da0443TX i3 7020U/4GB/1TB MX110/Win10 (5SL06PA)\n5.Laptop HP Pavilion X360 ad104TU i3 8130U/4GB/500GB/Win10/(4MF13PA)"],
+         "context_set": ""
+        },
+        {"tag": "Asus",
+         "patterns": ["Asus"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Laptop Asus X507MA N4000/4GB/256GB/Win10 (BR318T)\n2.Laptop Asus X441MA N5000/4GB/1TB/Win10/(GA024T)\n3.Laptop Asus X407UA i3 7020U/4GB/1TB/Win10/(BV351T)\n4.Laptop Asus X507UA i3 7020U/4GB/1TB/Win10 (EJ727T)\n5.Laptop Asus VivoBook A411UA i3 8130U/4GB/1TB/Win10/(EB688T)"],
+         "context_set": ""
+        },
+        {"tag": "Dell",
+         "patterns": ["Dell"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Laptop Dell Inspiron 3567 i3 7020U/4GB/1TB/Win10/(P63F002N67T)\n2.Laptop Dell Vostro 3468 i3 7020U/4GB/1TB/Win10/(70161069)\n3.Laptop Dell Vostro 3568 i3 6006U/4GB/1TB/Win10/(VTI3027W)\n4.Laptop Dell Vostro 3568 i3 7020U/4GB/1TB/Win10/(VTI32072W)\n5.Laptop Dell Inspiron 3476 i3 8130U/4GB/1TB/Win10/(8J61P11)"],
+         "context_set": ""
+        },
+        {"tag": "Lenovo",
+         "patterns": ["Lenovo"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Laptop Lenovo Ideapad 130 14IKB i3 7020U/4GB/1TB (81H60016VN)\n2.Laptop Lenovo Ideapad 330 15IKBR i3 7020U/4GB/1TB/Win10/(81DE00LDVN)\n3.Laptop Lenovo IdeaPad 330 15IKB i3 8130U/4GB+16GB/1TB/ (81DE020YVN)\n4.Laptop Lenovo Yoga 520 14IKB i3 7130U/4GB/500GB/Win10/(80X80106VN)\n5.Laptop Lenovo Ideapad 330 15IKBR i5 8250U/4GB/1TB/Win10/(81DE01KWVN)"],
+         "context_set": ""
+        },
+        {"tag": "Acer",
+         "patterns": ["Acer"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Laptop Acer Aspire A314 31 C2UX N3350 (NX.GNSSV.008)\n2.Laptop Acer Aspire A315 31 P2LJ N4200/4GB/500GB/Win10/(NX.GNTSV.010)\n3.Laptop Acer Aspire E5 476 i3 8130U/4GB/500GB/Win10 (NX.GWTSV.002)\n4.Laptop Acer Swift SF114 32 P2SG N5000/4GB/64GB/Win10 (NX.GZJSV.001)\n5.Laptop Acer Spin 3 SP314 51 39WK i3 7130U/4GB/500GB/Win10 (NX.GUWSV.001)"],
+         "context_set": ""
+        },
+        {"tag": "MSI",
+         "patterns": ["MSI"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Laptop MSI Prestige PS42 i5 8250U/4GB/256GB/win10 (476VN)\n2.Laptop MSI GF63 8RD i7 8750H/8GB/1TB+128GB/4GB GTX1050Ti/Win10/(221VN)"],
+         "context_set": ""
+        },
+        {"tag": "Giá: MQD32SA/A",
+         "patterns": ["MQD32SA/A", "giá máy", "giá tiền", "bao nhiêu tiền", "Apple Macbook Air 2017 i5 1.8GHz/8GB/128GB"],
+         "responses": ["Laptop Apple Macbook Air 2017 i5 1.8GHz/8GB/128GB (MQD32SA/A) có giá 22.490.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: MREE2SA/A",
+         "patterns": ["MREE2SA/A", "giá máy", "giá tiền", "bao nhiêu tiền", "Apple Macbook Air 2018 i5/8GB/128GB (MREE2SA/A) "],
+         "responses": ["Laptop Apple Macbook Air 2018 i5/8GB/128GB (MREE2SA/A) có giá 31.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: MRE82SA/A",
+         "patterns": ["MRE82SA/A", "giá máy", "giá tiền", "bao nhiêu tiền", "Apple Macbook Air 2018 i5/8GB/128GB (MRE82SA/A)"],
+         "responses": ["Laptop Apple Macbook Air 2018 i5/8GB/128GB (MRE82SA/A) có giá 31.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: MREF2SA/A",
+         "patterns": ["MREF2SA/A", "giá máy", "giá tiền", "bao nhiêu tiền", "Apple Macbook Air 2018 i5/8GB/256GB"],
+         "responses": ["Laptop Apple Macbook Air 2018 i5/8GB/256GB (MREF2SA/A) có giá 36.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: MR9Q2SA/A",
+         "patterns": ["MR9Q2SA/A", "giá máy", "giá tiền", "bao nhiêu tiền", "Pro Touch","Apple Macbook Pro Touch i5 2.3GHz/8GB/256GB (2018)"],
+         "responses": ["Laptop Apple Macbook Pro Touch MR9Q2SA/A i5 2.3GHz/8GB/256GB (2018) có giá 43.490.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: 4ME63PA",
+         "patterns": ["4ME63PA", "giá máy", "giá tiền", "bao nhiêu tiền", "HP 15 da0048TU N5000/4GB/500GB/Win10"],
+         "responses": ["Laptop HP 15 da0048TU N5000/4GB/500GB/Win10/(4ME63PA) có giá 7.390.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: 4NA89PA",
+         "patterns": ["4NA89PA", "giá máy", "giá tiền", "bao nhiêu tiền", "da0055TU", "HP 15 da0055TU i3 7020U/4GB/1TB/Win10"],
+         "responses": ["Laptop HP 15 da0055TU i3 7020U/4GB/1TB/Win10/(4NA89PA) có giá 10.290.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: 4ME68PA",
+         "patterns": ["4ME68PA", "giá máy", "giá tiền", "bao nhiêu tiền", "da0054TU", "HP 15 da0054TU i3 7020U/4GB/500GB/Win10"],
+         "responses": ["Laptop HP 15 da0054TU i3 7020U/4GB/500GB/Win10/(4ME68PA) có giá 10.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: 5SL06PA",
+         "patterns": ["5SL06PA", "giá máy", "giá tiền", "bao nhiêu tiền", "da0443TX", "HP 15 da0443TX i3 7020U/4GB/1TB MX110/Win10"],
+         "responses": ["Laptop HP 15 da0443TX i3 7020U/4GB/1TB MX110/Win10 (5SL06PA) có giá 11.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: 4MF13PA",
+         "patterns": ["4MF13PA", "giá máy", "giá tiền", "bao nhiêu tiền", "Pavilion", "ad104TU", "X360", "HP Pavilion X360 ad104TU i3 8130U/4GB/500GB/Win10"],
+         "responses": ["Laptop HP Pavilion X360 ad104TU i3 8130U/4GB/500GB/Win10/(4MF13PA) có giá 12.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: BR318T",
+         "patterns": ["BR318T", "giá máy", "giá tiền", "bao nhiêu tiền", "X507MA", "Asus X507MA N4000/4GB/256GB/Win10"],
+         "responses": ["Laptop Asus X507MA N4000/4GB/256GB/Win10 (BR318T) có giá 6.590.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: GA024",
+         "patterns": ["GA024T", "giá máy", "giá tiền", "bao nhiêu tiền", "X441MA", "Asus X441MA N5000/4GB/1TB/Win10"],
+         "responses": ["Laptop Asus X441MA N5000/4GB/1TB/Win10/(GA024T) có giá 7.290.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: BV351T",
+         "patterns": ["BV351T", "giá máy", "giá tiền", "bao nhiêu tiền", "X407UA", "Asus X407UA i3 7020U/4GB/1TB/Win10"],
+         "responses": ["Laptop Asus X407UA i3 7020U/4GB/1TB/Win10/(BV351T) có giá 10.090.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: EJ727T",
+         "patterns": ["EJ727T", "giá máy", "giá tiền", "bao nhiêu tiền", "X507UA", "Asus X507UA i3 7020U/4GB/1TB/Win10"],
+         "responses": ["Laptop Asus X507UA i3 7020U/4GB/1TB/Win10 (EJ727T) có giá 10.590.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: EB688T",
+         "patterns": ["EB688T", "giá máy", "giá tiền", "bao nhiêu tiền", "VivoBook", "A411UA", "Asus VivoBook A411UA i3 8130U/4GB/1TB/Win10"],
+         "responses": ["Laptop Asus VivoBook A411UA i3 8130U/4GB/1TB/Win10/(EB688T) có giá 11.290.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: P63F002N67T",
+         "patterns": ["P63F002N67T", "giá máy", "giá tiền", "bao nhiêu tiền", "Inspiron", "3567", "Dell Inspiron 3567 i3 7020U/4GB/1TB/Win10"],
+         "responses": ["Laptop Dell Inspiron 3567 i3 7020U/4GB/1TB/Win10/(P63F002N67T) có giá 10.690.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: 70161069",
+         "patterns": ["70161069", "giá máy", "giá tiền", "bao nhiêu tiền", "Vostro", "3468", "Vostro 3468 i3 7020U", "Dell Vostro 3468 i3 7020U/4GB/1TB/Win10"],
+         "responses": ["Laptop Dell Vostro 3468 i3 7020U/4GB/1TB/Win10/(70161069) có giá 11.690.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: VTI3027W",
+         "patterns": ["VTI3027W", "giá máy", "giá tiền", "bao nhiêu tiền", "Vostro", "3568", "Vostro 3568 i3 6006U", "Dell Vostro 3568 i3 6006U/4GB/1TB/Win10"],
+         "responses": ["Laptop Dell Vostro 3568 i3 6006U/4GB/1TB/Win10/(VTI3027W) có giá 10.690.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: VTI32072W",
+         "patterns": ["VTI32072W", "giá máy", "giá tiền", "bao nhiêu tiền", "Vostro", "3568", "Vostro 3568 i3 7020U", "Dell Vostro 3568 i3 7020U/4GB/1TB/Win10"],
+         "responses": ["Laptop Dell Vostro 3568 i3 7020U/4GB/1TB/Win10/(VTI32072W) có giá 11.890.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: 8J61P11",
+         "patterns": ["8J61P11", "giá máy", "giá tiền", "bao nhiêu tiền", "Inspiron", "3476", "Dell Inspiron 3476 i3 8130U/4GB/1TB/Win10"],
+         "responses": ["Laptop Dell Inspiron 3476 i3 8130U/4GB/1TB/Win10/(8J61P11) có giá 11.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: 81H60016VN",
+         "patterns": ["81H60016VN", "giá máy", "giá tiền", "bao nhiêu tiền", "Ideapad", "14IKB", "Ideapad 130", "Ideapad 130 14IKB", "Ideapad 130 14IKB i3 7020U", "Lenovo Ideapad 130 14IKB i3 7020U/4GB/1TB"],
+         "responses": ["Laptop Lenovo Ideapad 130 14IKB i3 7020U/4GB/1TB (81H60016VN) có giá 8.290.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: 81DE00LDVN",
+         "patterns": ["81DE00LDVN", "giá máy", "giá tiền", "bao nhiêu tiền", "Ideapad", "15IKBR", "Ideapad 330", "Ideapad 330 15IKBR", "Ideapad 330 15IKBR i3 7020U", "Ideapad 330 15IKBR i3 7020U", "Lenovo Ideapad 330 15IKBR i3 7020U/4GB/1TB/Win10"],
+         "responses": ["Laptop Lenovo Ideapad 330 15IKBR i3 7020U/4GB/1TB/Win10/(81DE00LDVN) có giá 8.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: 81DE020YVN",
+         "patterns": ["81DE020YVN", "giá máy", "giá tiền", "bao nhiêu tiền", "IdeaPad", "15IKB", "Ideapad 330", "IdeaPad 330 15IKB", "IdeaPad 330 15IKB i3 8130U", "Lenovo IdeaPad 330 15IKB i3 8130U/4GB+16GB/1TB"],
+         "responses": ["Laptop Lenovo IdeaPad 330 15IKB i3 8130U/4GB+16GB/1TB/ (81DE020YVN) có giá 9.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: 80X80106VN",
+         "patterns": ["80X80106VN", "giá máy", "giá tiền", "bao nhiêu tiền", "Yoga", "14IKB", "Yoga 520", "Yoga 520 14IKB", "Yoga 520 14IKB i3 7130U", "Lenovo Yoga 520 14IKB i3 7130U/4GB/500GB/Win10"],
+         "responses": ["Laptop Lenovo Yoga 520 14IKB i3 7130U/4GB/500GB/Win10/(80X80106VN) có giá 10.690.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: 81DE01KWVN",
+         "patterns": ["81DE01KWVN", "giá máy", "giá tiền", "bao nhiêu tiền", "Ideapad", "15IKBR", "Ideapad 330", "Ideapad 330 15IKBR", "Ideapad 330 15IKBR i5 8250U", "Lenovo Ideapad 330 15IKBR i5 8250U/4GB/1TB/Win10"],
+         "responses": ["Laptop Lenovo Ideapad 330 15IKBR i5 8250U/4GB/1TB/Win10/(81DE01KWVN) có giá 11.290.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: NX.GNSSV.008",
+         "patterns": ["NX.GNSSV.008", "giá máy", "giá tiền", "bao nhiêu tiền", "Aspire", "A314", "C2UX", "Acer Aspire A314 31 C2UX N3350"],
+         "responses": ["Laptop Acer Aspire A314 31 C2UX N3350 (NX.GNSSV.008) có giá 6.290.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: NX.GNTSV.010",
+         "patterns": ["NX.GNTSV.010", "giá máy", "giá tiền", "bao nhiêu tiền", "Aspire", "A315", "P2LJ", "Acer Aspire A315 31 P2LJ N4200/4GB/500GB/Win10"],
+         "responses": ["Laptop Acer Aspire A315 31 P2LJ N4200/4GB/500GB/Win10/(NX.GNTSV.010) có giá 6.890.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: NX.GWTSV.002",
+         "patterns": ["NX.GWTSV.002", "giá máy", "giá tiền", "bao nhiêu tiền", "Aspire", "Aspire E5", "476", "Acer Aspire E5 476 i3 8130U/4GB/500GB/Win10"],
+         "responses": ["Laptop Acer Aspire E5 476 i3 8130U/4GB/500GB/Win10 (NX.GWTSV.002) có giá 9.490.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: NX.GZJSV.001",
+         "patterns": ["NX.GZJSV.001", "giá máy", "giá tiền", "bao nhiêu tiền", "Swift", "Swift SF114", "P2SG", "Acer Swift SF114 32 P2SG N5000/4GB/64GB/Win10"],
+         "responses": ["Laptop Acer Swift SF114 32 P2SG N5000/4GB/64GB/Win10 (NX.GZJSV.001) có giá 10.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: NX.GUWSV.001",
+         "patterns": ["NX.GUWSV.001", "giá máy", "giá tiền", "bao nhiêu tiền", "Spin", "Spin 3", "SP314", "39WK", "Acer Spin 3 SP314 51 39WK i3 7130U/4GB/500GB/Win10"],
+         "responses": ["Laptop Acer Spin 3 SP314 51 39WK i3 7130U/4GB/500GB/Win10 (NX.GUWSV.001) có giá 10.790.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: 476VN",
+         "patterns": ["476VN", "giá máy", "giá tiền", "bao nhiêu tiền", "Prestige", "PS42", "MSI Prestige PS42 i5 8250U/4GB/256GB/win10"],
+         "responses": ["Laptop MSI Prestige PS42 i5 8250U/4GB/256GB/win10 (476VN) có giá 17.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: 221VN",
+         "patterns": ["221VN", "giá máy", "giá tiền", "bao nhiêu tiền", "GF63", "8RD", "MSI GF63 8RD i7 8750H/8GB/1TB+128GB/4GB GTX1050Ti/Win10"],
+         "responses": ["Laptop MSI GF63 8RD i7 8750H/8GB/1TB+128GB/4GB GTX1050Ti/Win10/(221VN) có giá 26.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: MQD32SA/A",
+         "patterns": ["MQD32SA/A", "cấu hình máy", "thông số kỹ thuật", "Apple Macbook Air 2017 i5 1.8GHz/8GB/128GB"],
+         "responses": ["Thông số kỹ thuật của Laptop Apple Macbook Air 2017 i5 1.8GHz/8GB/128GB (MQD32SA/A):\nCPU:\tIntel Core i5 Broadwell, 1.80 GHz\nRAM:\t8 GB, DDR3L(On board), 1600 MHz\nỔ cứng:\tSSD: 128 GB\nMàn hình:\t13.3 inch, WXGA+(1440 x 900)\nCard màn hình:\tCard đồ họa tích hợp, Intel HD Graphics 6000\nCổng kết nối:\tMagSafe 2, 2 x USB 3.0, Thunderbolt 2\nHệ điều hành:\tMac OS\nThiết kế:\tVỏ kim loại nguyên khối, PIN liền\nKích thước:\tDày 17 mm, 1.35 Kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: MREE2SA/A",
+         "patterns": ["MREE2SA/A", "cấu hình máy", "thông số kỹ thuật", "Apple Macbook Air 2018 i5/8GB/128GB (MREE2SA/A)"],
+         "responses": ["Thông số kỹ thuật của Laptop Apple Macbook Air 2018 i5/8GB/128GB (MREE2SA/A):\nCPU:\tIntel Core i5 Coffee Lake, 1.60 GHz\nRAM:\t8 GB, DDR3, 2133 MHz\nỔ cứng:\tSSD: 128 GB\nMàn hình:\t13.3 inch, Retina (2560 x 1600)\nCard màn hình:\tCard đồ họa tích hợp, Intel UHD Graphics 617\nCổng kết nối:\t2 x Thunderbolt 3 (USB-C)\nHệ điều hành:\tMac OS\nThiết kế:\tVỏ kim loại nguyên khối, PIN liền\nKích thước:\tDày 4.1 đến 15.6 mm, 1.25 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: MRE82SA/A",
+         "patterns": ["MRE82SA/A", "cấu hình máy", "thông số kỹ thuật", "Apple Macbook Air 2018 i5/8GB/128GB (MRE82SA/A)"],
+         "responses": ["Thông số kỹ thuật của Laptop Apple Macbook Air 2018 i5/8GB/128GB (MRE82SA/A):\nCPU:\tIntel Core i5 Coffee Lake, 1.60 GHz\nRAM:\t8 GB, DDR3, 2133 MHz\nỔ cứng:\tSSD: 128 GB\nMàn hình:\t13.3 inch, Retina (2560 x 1600)\nCard màn hình:\tCard đồ họa tích hợp, Intel UHD Graphics 617\nCổng kết nối:\t2 x Thunderbolt 3 (USB-C)\nHệ điều hành:\tMac OS\nThiết kế:\tVỏ kim loại nguyên khối, PIN liền\nKích thước:\tDày 4.1 đến 15.6 mm, 1.25 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: MREF2SA/A",
+         "patterns": ["MRE82SA/A", "cấu hình máy", "thông số kỹ thuật", "Apple Macbook Air 2018 i5/8GB/256GB"],
+         "responses": ["Thông số kỹ thuật của Laptop Apple Macbook Air 2018 i5/8GB/256GB (MREF2SA/A):\nCPU:\tIntel Core i5 Coffee Lake, 1.60 GHz\nRAM:\t8 GB, DDR3, 2133 MHz\nỔ cứng:\tSSD: 256 GB\nMàn hình:\t13.3 inch, Retina (2560 x 1600)\nCard màn hình:\tCard đồ họa tích hợp, Intel UHD Graphics 617\nCổng kết nối:\t2 x Thunderbolt 3 (USB-C)\nHệ điều hành:\tMac OS\nThiết kế:\tVỏ kim loại nguyên khối, PIN liền\nKích thước:\tDày 4.1 đến 15.6 mm, 1.25 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: MR9Q2SA/A",
+         "patterns": ["MR9Q2SA/A ", "cấu hình máy", "thông số kỹ thuật", "Pro Touch", "Apple Macbook Pro Touch MR9Q2SA/A i5 2.3GHz/8GB/256GB (2018)"],
+         "responses": ["Thông số kỹ thuật của Laptop Apple Macbook Pro Touch MR9Q2SA/A i5 2.3GHz/8GB/256GB (2018):\nCPU:\tIntel Core i5 Kabylake Refresh, 2.30 GHz\nRAM:\t8 GB, DDR3L(On board), 2133 MHz\nỔ cứng:\tSSD: 256 GB\nMàn hình:\t13.3 inch, Retina (2560 x 1600)\nCard màn hình:\tCard đồ họa tích hợp, Intel Iris Plus Graphics 655\nCổng kết nối:\t4 x Thunderbolt 3 (USB-C)\nHệ điều hành:\tMac OS\nThiết kế:\tVỏ kim loại nguyên khối, PIN liền\nKích thước:\tDày 14.9 mm, 1.37 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: 4ME63PA",
+         "patterns": ["4ME63PA","cấu hình máy", "thông số kỹ thuật", "da0048TU", "HP 15 da0048TU N5000/4GB/500GB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop HP 15 da0048TU N5000/4GB/500GB/Win10/(4ME63PA):\nCPU:\tIntel Pentium, N5000, 1.10 GHz\nRAM:\t4 GB, DDR4 (1 khe), 2400 MHz\nỔ cứng:\tHDD: 500 GB SATA3\nMàn hình:\t15.6 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics\nCổng kết nối:\t2 x USB 3.1, HDMI, LAN (RJ45), USB 2.0\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 22.5 mm, 1.77 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: 4NA89PA",
+         "patterns": ["4NA89PA","cấu hình máy", "thông số kỹ thuật", "da0055TU", "HP 15 da0055TU i3 7020U/4GB/1TB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop HP 15 da0055TU i3 7020U/4GB/1TB/Win10/(4NA89PA):\nCPU:\tIntel Core i3 Kabylake, 7020U, 2.30 GHz\nRAM:\t4 GB, DDR4 (1 khe), 2133 MHz\nỔ cứng:\tHDD: 1 TB\nMàn hình:\t15.6 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics 620\nCổng kết nối:\tHDMI 1.4, 2 x USB 3.1, LAN (RJ45), USB 2.0\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 22.5 mm, 1.8 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: 4ME68PA",
+         "patterns": ["4ME68PA","cấu hình máy", "thông số kỹ thuật", "da0054TU", "HP 15 da0054TU i3 7020U/4GB/500GB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop HP 15 da0054TU i3 7020U/4GB/500GB/Win10/(4ME68PA):\nCPU:\tIntel Core i3 Kabylake, 7020U, 2.30 GHz\nRAM:\t4 GB, DDR4 (On board +1 khe), 2133 MHz\nỔ cứng:\tHDD: 500 GB SATA3\nMàn hình:\t15.6 inch, Full HD (1920 x 1080)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics 620\nCổng kết nối:\t2 x USB 3.1, HDMI, LAN (RJ45), USB 2.0\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 22.5 mm, 1.77 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: 5SL06PA",
+         "patterns": ["5SL06PA","cấu hình máy", "thông số kỹ thuật", "da0443TX", "HP 15 da0443TX i3 7020U/4GB/1TB MX110/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop HP 15 da0443TX i3 7020U/4GB/1TB MX110/Win10 (5SL06PA):\nCPU:\tIntel Core i3 Kabylake, 7020U, 2.30 GHz\nRAM:\t4 GB, DDR4 (2 khe), 2133 MHz\nỔ cứng:\tHDD: 1 TB, Hỗ trợ khe cắm SSD M.2 SATA3\nMàn hình:\t15.6 inch, Full HD (1920 x 1080)\nCard màn hình:\tCard đồ họa rời, NVIDIA GeForce MX110, 2GB\nCổng kết nối:\tHDMI 1.4, 2 x USB 3.1, USB 2.0\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 22.5 mm, 2.0 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: 4MF13PA",
+         "patterns": ["4MF13PA","cấu hình máy", "thông số kỹ thuật", "Pavilion", "X360", "ad104TU", "HP Pavilion X360 a,d104TU i3 8130U/4GB/500GB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop HP Pavilion X360 ad104TU i3 8130U/4GB/500GB/Win10/(4MF13PA):\nCPU:\tIntel Core i3 Kabylake Refresh, 8130U, 2.20 GHz\nRAM:\t4 GB, DDR4 (On board), 2400 MHz\nỔ cứng:\tHDD: 500 GB SATA3\nMàn hình:\t11.6 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® UHD Graphics 620\nCổng kết nối:\t3 x USB 3.1, HDMI\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 19.3 mm, 1.39 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: BR318T",
+         "patterns": ["BR318T","cấu hình máy", "thông số kỹ thuật", "Asus X507MA N4000/4GB/256GB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Asus X507MA N4000/4GB/256GB/Win10 (BR318T):\nCPU:\tIntel Celeron, N4000, 1.10 GHz\nRAM:\t4 GB, DDR4 (1 khe), 2400 MHz\nỔ cứng:\tSSD: 256 GB M2\nMàn hình:\t15.6 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® UHD Graphics 600\nCổng kết nối:\t2 x USB 3.0, HDMI, USB 2.0\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 21.9 mm, 1.75 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: GA024",
+         "patterns": ["GA024T","cấu hình máy", "thông số kỹ thuật", "X441MA", "Asus X441MA N5000/4GB/1TB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Asus X441MA N5000/4GB/1TB/Win10/(GA024T):\nCPU:\tIntel Pentium, N5000, 1.10 GHz\nRAM:\t4 GB, DDR4 (1 khe), 2133 MHz\nỔ cứng:\tHDD: 1 TB SATA3\nMàn hình:\t14 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics\nCổng kết nối:\tHDMI, LAN (RJ45), USB 2.0, USB Type-C, USB 3.0, VGA (D-Sub)\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 27.6 mm, 1.7 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: BV351T",
+         "patterns": ["BV351T","cấu hình máy", "thông số kỹ thuật", "X407UA", "Asus X407UA i3 7020U/4GB/1TB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Asus X407UA i3 7020U/4GB/1TB/Win10/(BV351T):\nCPU:\tIntel Core i3 Kabylake, 7020U, 2.30 GHz\nRAM:\t4 GB, DDR4 (1 khe), 2133 MHz\nỔ cứng:\tHDD: 1 TB, Hỗ trợ khe cắm SSD M.2\nMàn hình:\t14 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics 620\nCổng kết nối:\tHDMI, USB 2.0, USB 3.0\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 21.9 mm, 1.5 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: EJ727T",
+         "patterns": ["EJ727T","cấu hình máy", "thông số kỹ thuật", "X507UA", "Asus X507UA i3 7020U/4GB/1TB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Asus X507UA i3 7020U/4GB/1TB/Win10 (EJ727T):\nCPU:\tIntel Core i3 Kabylake, 7020U, 2.30 GHz\nRAM:\t4 GB, DDR4 (2 khe), 2400 MHz\nỔ cứng:\tHDD: 1 TB, Hỗ trợ khe cắm SSD M.2 SATA3\nMàn hình:\t15.6 inch, Full HD (1920 x 1080)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics 620\nCổng kết nối:\t2 x USB 2.0, HDMI, USB 3.0\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 21.9 mm, 1.68 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: EB688T",
+         "patterns": ["EB688T","cấu hình máy", "thông số kỹ thuật", "VivoBook", "A411UA", "Asus VivoBook A411UA i3 8130U/4GB/1TB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Asus VivoBook A411UA i3 8130U/4GB/1TB/Win10/(EB688T):\nCPU:\tIntel Core i3 Kabylake Refresh, 8130U, 2.20 GHz\nRAM:\t4 GB, DDR4 (1 khe), 2133 MHz\nỔ cứng:\tHDD: 1 TB SATA3, Hỗ trợ khe cắm SSD M.2 SATA3\nMàn hình:\t14 inch, Full HD (1920 x 1080)\nCard màn hình:\tCard đồ họa tích hợp, Intel® UHD Graphics 620\nCổng kết nối:\t2 x USB 2.0, HDMI, USB 3.0, USB Type-C\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 18.8 mm, 1.43 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: P63F002N67T",
+         "patterns": ["P63F002N67T","cấu hình máy", "thông số kỹ thuật", "Inspiron", "3567", "Dell Inspiron 3567 i3 7020U/4GB/1TB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Dell Inspiron 3567 i3 7020U/4GB/1TB/Win10/(P63F002N67T):\nCPU:\tIntel Core i3 Kabylake, 7020U, 2.30 GHz\nRAM:\t4 GB, DDR4 (2 khe), 2133 MHz\nỔ cứng:\tHDD: 1 TB\nMàn hình:\t15.6 inch, Full HD (1920 x 1080)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics 620\nCổng kết nối:\t2 x USB 3.0, HDMI, LAN (RJ45), USB 2.0\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN rời\nKích thước:\tDày 23.65 mm, 2.3 Kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: 70161069",
+         "patterns": ["70161069","cấu hình máy", "thông số kỹ thuật", "Vostro", "3468", "Dell Vostro 3468 i3 7020U/4GB/1TB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Dell Vostro 3468 i3 7020U/4GB/1TB/Win10/(70161069):\nCPU:\tIntel Core i3 Kabylake, 7020U, 2.30 GHz\nRAM:\t4 GB, DDR4 (2 khe), 2400 MHz\nỔ cứng:\tHDD: 1 TB\nMàn hình:\t14 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics 620\nCổng kết nối:\t2 x USB 3.0, HDMI, LAN (RJ45), USB 2.0, VGA (D-Sub)\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN rời\nKích thước:\tDày 23.4 mm, 1.76kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: VTI3027W",
+         "patterns": ["VTI3027W","cấu hình máy", "thông số kỹ thuật", "Vostro", "3568", "Dell Vostro 3568 i3 6006U/4GB/1TB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Dell Vostro 3568 i3 6006U/4GB/1TB/Win10/(VTI3027W):\nCPU:\tIntel Core i3 Skylake, 6006U, 2.00 GHz\nRAM:\t4 GB, DDR4 (2 khe), 2133 MHz\nỔ cứng:\tHDD: 1 TB\nMàn hình:\t15.6 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics 520\nCổng kết nối:\t2 x USB 3.0, HDMI, LAN (RJ45), USB 2.0, VGA (D-Sub)\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN rời\nKích thước:\tDày 23.65 mm, 2.18 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: VTI32072W",
+         "patterns": ["VTI32072W","cấu hình máy", "thông số kỹ thuật", "Vostro", "3568", "Dell Vostro 3568 i3 7020U/4GB/1TB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Dell Vostro 3568 i3 7020U/4GB/1TB/Win10/(VTI32072W):\nCPU:\tIntel Core i3 Kabylake, 7020U, 2.30 GHz\nRAM:\t4 GB, DDR4 (2 khe), 2400 MHz\nỔ cứng:\tHDD: 1 TB SATA3\nMàn hình:\t15.6 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics 620\nCổng kết nối:\t2 x USB 3.0, HDMI, LAN (RJ45), USB 2.0, VGA (D-Sub)\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN rời\nKích thước:\tDày 23.65 mm, 2.18 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: 8J61P11",
+         "patterns": ["8J61P11","cấu hình máy", "thông số kỹ thuật", "Inspiron", "3476", "Dell Inspiron 3476 i3 8130U/4GB/1TB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Dell Inspiron 3476 i3 8130U/4GB/1TB/Win10/(8J61P11):\nCPU:\tIntel Core i3 Kabylake Refresh, 8130U, 2.20 GHz\nRAM:\t4 GB, DDR4 (2 khe), 2400 MHz\nỔ cứng:\tHDD: 1 TB SATA3\nMàn hình:\t14 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® UHD Graphics 620\nCổng kết nối:\t2 x USB 3.0, HDMI, LAN (RJ45), USB 2.0\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN rời\nKích thước:\tDày 23.35 mm, 1.97 Kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: 81H60016VN",
+         "patterns": ["81H60016VN","cấu hình máy", "thông số kỹ thuật","Ideapad", "14IKB", "Ideapad 130", "Ideapad 130 14IKB", "Lenovo Ideapad 130 14IKB i3 7020U/4GB/1TB"],
+         "responses": ["Thông số kỹ thuật của Laptop Lenovo Ideapad 130 14IKB i3 7020U/4GB/1TB (81H60016VN):\nCPU:\tIntel Core i3 Kabylake, 7020U, 2.30 GHz\nRAM:\t4 GB, DDR4 (2 khe), 2133 MHz\nỔ cứng:\tHDD: 1 TB SATA3\nMàn hình:\t14 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® UHD Graphics 620\nCổng kết nối:\t2 x USB 3.0, HDMI\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 18 mm, 1.54 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: 81DE00LDVN",
+         "patterns": ["81DE00LDVN","cấu hình máy", "thông số kỹ thuật", "Ideapad", "Ideapad 330", "15IKBR", "Lenovo Ideapad 330 15IKBR i3 7020U/4GB/1TB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Lenovo Ideapad 330 15IKBR i3 7020U/4GB/1TB/Win10/(81DE00LDVN):\nCPU:\tIntel Core i3 Kabylake, 7020U, 2.30 GHz\nRAM:\t4 GB, DDR4 (1 khe), 2133 MHz\nỔ cứng:\tHDD: 1 TB\nMàn hình:\t15.6 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics 620\nCổng kết nối:\tHDMI 1.4, 2 x USB 3.0, LAN (RJ45), USB Type-C\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 22.9mm, 2kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: 81DE020YVN",
+         "patterns": ["81DE020YVN", "cấu hình máy", "thông số kỹ thuật", "IdeaPad", "15IKB", "Ideapad 330", "IdeaPad 330 15IKB", "IdeaPad 330 15IKB i3 8130U", "Lenovo IdeaPad 330 15IKB i3 8130U/4GB+16GB/1TB"],
+         "responses": ["Thông số kỹ thuật của Laptop Lenovo IdeaPad 330 15IKB i3 8130U/4GB+16GB/1TB/ (81DE020YVN): CPU:\tIntel Core i3 Coffee Lake, 8130U, 2.20 GHz\nRAM:\t4 GB, DDR4 (On board +1 khe), 2133 MHz\nỔ cứng:\tHDD: 1 TB SATA3, Intel Optane 16GB, (Hỗ trợ thay thế SSD PCIe)\nMàn hình:\t15.6 inch, Full HD (1920 x 1080)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics 620\nCổng kết nối:\t2 x USB 3.0, HDMI, USB Type-C\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 22.9 mm, 2.2 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: 80X80106VN",
+         "patterns": ["80X80106VN", "cấu hình máy", "thông số kỹ thuật", "Yoga", "14IKB", "Yoga 520", "Yoga 520 14IKB", "Yoga 520 14IKB i3 7130U", "Lenovo Yoga 520 14IKB i3 7130U/4GB/500GB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Lenovo Yoga 520 14IKB i3 7130U/4GB/500GB/Win10/(80X80106VN): CPU:\tIntel Core i3 Kabylake, 7130U, 2.70 GHz\nRAM:\t4 GB, DDR4 (1 khe), 2133 MHz\nỔ cứng:\tHDD: 500 GB\nMàn hình:\t14 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics 620\nCổng kết nối:\tHDMI, USB 2.0, USB Type-C, USB 3.0\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 19.9 mm, 1.7 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: 81DE01KWVN",
+         "patterns": ["81DE01KWVN", "cấu hình máy", "thông số kỹ thuật", "Ideapad", "15IKBR", "Ideapad 330", "Ideapad 330 15IKBR", "Ideapad 330 15IKBR i5 8250U", "Lenovo Ideapad 330 15IKBR i5 8250U/4GB/1TB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Lenovo Ideapad 330 15IKBR i5 8250U/4GB/1TB/Win10/(81DE01KWVN): CPU:\tIntel Core i5 Kabylake Refresh, 8250U, 1.60 GHz\nRAM:\t4 GB, DDR4 (On board +1 khe), 2400 MHz\nỔ cứng:\tHDD: 1 TB\nMàn hình:\t15.6 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics 620\nCổng kết nối:\t2 x USB 3.0, HDMI, LAN (RJ45), USB Type-C\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 22.9 mm, 2.2 Kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: NX.GNSSV.008",
+         "patterns": ["NX.GNSSV.008","cấu hình máy", "thông số kỹ thuật", "Aspire", "A314", "C2UX", "Acer Aspire A314 31 C2UX N3350"],
+         "responses": ["Thông số kỹ thuật của Laptop Acer Aspire A314 31 C2UX N3350 (NX.GNSSV.008):\nCPU:\tIntel Celeron, N3350, 1.10 GHz\nRAM:\t2 GB, DDR3L (1 khe RAM), 1600 MHz\nỔ cứng:\tHDD: 500 GB\nMàn hình:\t14 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics\nCổng kết nối:\t2 x USB 2.0, HDMI, LAN (RJ45), USB 3.0\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 20.15 mm, 1.6 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: NX.GNTSV.010",
+         "patterns": ["NX.GNTSV.010","cấu hình máy", "thông số kỹ thuật", "Aspire", "A315", "P2LJ", "Acer Aspire A315 31 P2LJ N4200/4GB/500GB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Acer Aspire A315 31 P2LJ N4200/4GB/500GB/Win10/(NX.GNTSV.010):\nCPU:\tIntel Pentium, N4200, 1.10 GHz\nRAM:\t4 GB, DDR3L(On board+1Khe), 1600 MHz\nỔ cứng:\tHDD: 500 GB, Hỗ trợ khe cắm SSD M.2 PCIe\nMàn hình:\t15.6 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics\nCổng kết nối:\t2 x USB 2.0, HDMI, LAN (RJ45), USB 3.0\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 24.6 mm, 2.4 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: NX.GWTSV.002",
+         "patterns": ["NX.GWTSV.002","cấu hình máy", "thông số kỹ thuật", "Aspire", "Aspire E5", "476", "Acer Aspire E5 476 i3 8130U/4GB/500GB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Acer Aspire E5 476 i3 8130U/4GB/500GB/Win10 (NX.GWTSV.002):\nCPU:\tIntel Core i3 Kabylake Refresh, 8130U, 2.20 GHz\nRAM:\t4 GB, DDR4 (2 khe), 2133 MHz\nỔ cứng:\tHDD: 500 GB, Hỗ trợ khe cắm SSD M.2 PCIe\nMàn hình:\t14 inch, HD (1366 x 768)\nCard màn hình:\tCard đồ họa tích hợp, Intel® UHD Graphics 620\nCổng kết nối:\t2 x USB 3.0, HDMI, LAN (RJ45), USB 2.0, VGA (D-Sub)\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 23.7 mm, 1.9 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: NX.GZJSV.001",
+         "patterns": ["NX.GZJSV.001","cấu hình máy", "thông số kỹ thuật", "Swift", "Swift SF114", "P2SG", "Acer Swift SF114 32 P2SG N5000/4GB/64GB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Acer Swift SF114 32 P2SG N5000/4GB/64GB/Win10 (NX.GZJSV.001):\nCPU:\tIntel Pentium, N5000, 1.10 GHz\nRAM:\t4 GB, DDR4 (1 khe), 2133 MHz\nỔ cứng:\teMMC: 64 GB, Hỗ trợ khe cắm SSD M.2 PCIe\nMàn hình:\t14 inch, Full HD (1920 x 1080)\nCard màn hình:\tCard đồ họa tích hợp, Intel® UHD Graphics 605\nCổng kết nối:\t2 x USB 3.0, HDMI, USB 2.0, USB Type-C\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ kim loại, PIN liền\nKích thước:\tDày 14.95 mm, 1.3 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: NX.GUWSV.001",
+         "patterns": ["NX.GUWSV.001","cấu hình máy", "thông số kỹ thuật", "Spin", "Spin 3", "SP314", "39WK", "Acer Spin 3 SP314 51 39WK i3 7130U/4GB/500GB/Win10"],
+         "responses": ["Thông số kỹ thuật của Laptop Acer Spin 3 SP314 51 39WK i3 7130U/4GB/500GB/Win10 (NX.GUWSV.001):\nCPU:\tIntel Core i3 Kabylake, 7130U, 2.70 GHz\nRAM:\t4 GB, DDR4 (On board), 2133 MHz\nỔ cứng:\tHDD: 500 GB, Hỗ trợ khe cắm SSD M.2 PCIe\nMàn hình:\t14 inch, Full HD (1920 x 1080)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics 620\nCổng kết nối:\t2 x USB 3.0, HDMI, USB 2.0\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ nhựa, PIN liền\nKích thước:\tDày 20.8 mm, 1.7 kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: 476VN",
+         "patterns": ["476VN","cấu hình máy", "thông số kỹ thuật", "Prestige", "PS42", "MSI Prestige PS42 i5 8250U/4GB/256GB/win10"],
+         "responses": ["Thông số kỹ thuật của Laptop MSI Prestige PS42 i5 8250U/4GB/256GB/win10 (476VN):\nCPU:\tIntel Core i5 Kabylake Refresh, 8250U, 1.60 GHz\nRAM:\t4 GB, DDR4 (1 khe), 2666 MHz\nỔ cứng:\tSSD 256GB NVMe PCIe\nMàn hình:\t14 inch, Full HD (1920 x 1080)\nCard màn hình:\tCard đồ họa tích hợp, Intel® HD Graphics 620\nCổng kết nối:\t2 x USB 3.1, HDMI, 2 x USB Type-C\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ kim loại nguyên khối, PIN liền\nKích thước:\tDày 15.9 mm, 1.18kg"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: 221VN",
+         "patterns": ["221VN","cấu hình máy", "thông số kỹ thuật", "GF63", "8RD", "MSI GF63 8RD i7 8750H/8GB/1TB+128GB/4GB GTX1050Ti/Win10"],
+         "responses": ["Laptop MSI GF63 8RD i7 8750H/8GB/1TB+128GB/4GB GTX1050Ti/Win10/(221VN):\nCPU:\tIntel Core i7 Coffee Lake, 8750H, 2.20 GHz\nRAM:\t8 GB, DDR4 (2 khe), 2666 MHz\nỔ cứng:\tHDD: 1 TB + SSD: 128GB, Hỗ trợ khe cắm SSD M.2 PCIe\nMàn hình:\t15.6 inch, Full HD (1920 x 1080)\nCard màn hình:\tCard đồ họa rời, NVIDIA GeForce GTX 1050Ti, 4GB\nCổng kết nối:\tHDMI 1.4, 3 x USB 3.1, LAN (RJ45), USB Type-C\nHệ điều hành:\tWindows 10 Home SL\nThiết kế:\tVỏ kim loại, PIN liền\nKích thước:\tDày 21.7 mm, 1.86 kg"],
+         "context_set": ""
+        }
+    ]
+}

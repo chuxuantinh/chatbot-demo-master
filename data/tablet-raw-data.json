@@ -1,0 +1,278 @@
+{"intents": [
+        {"tag": "Lời mở đầu",
+         "patterns": ["Lời Chào Từ Khách Hàng"],
+         "responses": ["Quý khách muốn mua máy tính bảng như thế nào ạ? Ở đây chúng tôi bán Máy Tính Bảng của các hãng sau:\n1.Apple (Ipad)\n2.Samsung\n3.Huawei\n4.Lenovo\n5.Masstel\n6.Mobell"],
+         "context_set": ""
+        },
+        {"tag": "Apple",
+         "patterns": ["Ipad", "Apple"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Máy tính bảng iPad Pro 11 inch Wifi 256GB (2018)\n2.Máy tính bảng iPad Pro 11 inch Wifi Cellular 64GB (2018)\n3.Máy tính bảng iPad Pro 11 inch Wifi 64GB (2018)\n4.Máy tính bảng iPad Pro 10.5 inch Wifi 64GB (2017)\n5.Máy tính bảng iPad Mini 7.9 inch Wifi Cellular 64GB (2019)"],
+         "context_set": ""
+        },
+        {"tag": "Samsung",
+         "patterns": ["Samsung"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Máy tính bảng Samsung Galaxy Tab S5E T725 (2019)\n2.Máy tính bảng Samsung Galaxy Tab A 10.5\n3.Máy tính bảng Samsung Galaxy Tab A 10.1 T515 (2019)\n4.Máy tính bảng Samsung Galaxy Tab A6 10.1 Spen\n5.Máy tính bảng Samsung Galaxy Tab A plus 8 SPen (2019)"],
+         "context_set": ""
+        },
+        {"tag": "Huawei",
+         "patterns": ["Huawei"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Máy tính bảng Huawei Mediapad T5 10.1 inch\n2.Máy tính bảng Huawei MediaPad T3 10 (2017)\n3.Máy tính bảng Huawei MediaPad T3 8.0 (2017)\n4.Máy tính bảng Huawei MediaPad T3 7 (2019)"],
+         "context_set": ""
+        },
+        {"tag": "Lenovo",
+         "patterns": ["Lenovo"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Máy tính bảng Lenovo Tab E10 TB-X104L Đen\n2.Máy tính bảng Lenovo Tab 4 8 16GB (TB-8504X)\n3.Máy tính bảng Lenovo Tab 7 Essential 16GB (TB-7304X)\n4.Máy tính bảng Lenovo Tab E7 TB-7104I"],
+         "context_set": ""
+        },
+        {"tag": "Masstel",
+         "patterns": ["Masstel"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Máy tính bảng Masstel Tab10 Plus\n2.Máy tính bảng Masstel Tab8 Plus"],
+         "context_set": ""
+        },
+        {"tag": "Mobell",
+         "patterns": ["Mobell"],
+         "responses": ["Đây là những dòng sản phầm mà cửa hàng đang có:\n1.Máy tính bảng Mobell Tab 10\n2.Máy tính bảng Mobell Tab 8 Pro\n3.Máy tính bảng Mobell Tab 8A\n4.Máy tính bảng Mobell Tab 7s"],
+         "context_set": ""
+        },
+        {"tag": "Giá: iPad Pro 11 inch Wifi 256GB (2018)",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "ipad Pro 11", "Wifi 256GB (2018)"],
+         "responses": ["Máy tính bảng iPad Pro 11 inch Wifi 256GB (2018) có giá 25.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: iPad Pro 11 inch Wifi Cellular 64GB (2018)",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "iPad Pro", "iPad Pro 11", "Wifi Cellular 64GB (2018)"],
+         "responses": ["Máy tính bảng iPad Pro 11 inch Wifi Cellular 64GB (2018) có giá 25.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: iPad Pro 11 inch Wifi 64GB (2018)",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "iPad Pro", "iPad Pro 11", "Wifi 64GB (2018)"],
+         "responses": ["Máy tính bảng iPad Pro 11 inch Wifi 64GB (2018) có giá 21.490.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: iPad Pro 10.5 inch Wifi 64GB (2017)",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "iPad Pro", "iPad Pro 10.5", "Wifi 64GB (2017)"],
+         "responses": ["Máy tính bảng iPad Pro 10.5 inch Wifi 64GB (2017) có giá 16.490.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: iPad Mini 7.9 inch Wifi Cellular 64GB (2019)",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "iPad Mini", "iPad Mini 7.9", "Wifi Cellular 64GB (2019)"],
+         "responses": ["Máy tính bảng iPad Mini 7.9 inch Wifi Cellular 64GB (2019) có giá 14.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Samsung Galaxy Tab S5E T725 (2019)",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Galaxy Tab", "S5E", "Samsung Galaxy Tab S5E T725 (2019)"],
+         "responses": ["Máy tính bảng Samsung Galaxy Tab S5E T725 (2019) có giá 10.490.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Samsung Galaxy Tab A 10.5 Inch",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Galaxy Tab", "Galaxy Tab A", "Samsung Galaxy Tab A 10.5"],
+         "responses": ["Máy tính bảng Samsung Galaxy Tab A 10.5 có giá 9.490.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Samsung Galaxy Tab A 10.1 T515 (2019)",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Galaxy Tab", "Galaxy Tab A", "Tab A 10.1", "Samsung Galaxy Tab A 10.1 T515 (2019)"],
+         "responses": ["Máy tính bảng Samsung Galaxy Tab A 10.1 T515 (2019) có giá 7.490.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Samsung Galaxy Tab A6 10.1 Spen",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Galaxy Tab", "Galaxy Tab A6", "Tab A6 10.1", "Spen", "Samsung Galaxy Tab A6 10.1 Spen"],
+         "responses": ["Máy tính bảng Samsung Galaxy Tab A6 10.1 Spen có giá 7.490.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Samsung Galaxy Tab A plus 8 SPen (2019)",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Galaxy Tab", "Galaxy Tab A", "Tab A Plus", "Plus 8", "Spen", "Samsung Galaxy Tab A plus 8 SPen (2019)"],
+         "responses": ["Máy tính bảng Samsung Galaxy Tab A plus 8 SPen (2019) có giá 6.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Huawei Mediapad T5 10.1 inch",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Mediapad", "Mediapad T5", "T5 10.1", "Huawei Mediapad T5 10.1"],
+         "responses": ["Máy tính bảng Huawei Mediapad T5 10.1 inch có giá 5.690.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Huawei MediaPad T3 10 (2017)",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Mediapad", "Mediapad T3", "T3 10", "Huawei MediaPad T3 10 (2017)"],
+         "responses": ["Máy tính bảng Huawei MediaPad T3 10 (2017) có giá 4.490.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Huawei MediaPad T3 8.0 (2017)",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Mediapad", "Mediapad T3", "T3 8", "Huawei MediaPad T3 8.0 (2017)"],
+         "responses": ["Máy tính bảng Huawei MediaPad T3 8.0 (2017) có giá 3.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Huawei MediaPad T3 7 (2019)",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Mediapad", "Mediapad T3", "T3 7", "Huawei MediaPad T3 7 (2019)"],
+         "responses": ["Máy tính bảng Huawei MediaPad T3 7 (2019) có giá 2.590.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: TB-X104L",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Lenovo Tab", "Tab E10", "TB-X104L", "Lenovo Tab E10 TB-X104L"],
+         "responses": ["Máy tính bảng Lenovo Tab E10 TB-X104L Đen có giá 3.590.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: TB-8504X",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Lenovo Tab", "Tab 4", "TB-8504X", "Lenovo Tab 4 8 16GB (TB-8504X)"],
+         "responses": ["Máy tính bảng Lenovo Tab 4 8 16GB (TB-8504X) có giá 3.690.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: TB-7304X",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "TB-7304X", "Lenovo Tab", "Tab 7", "Essential", "Lenovo Tab 7 Essential 16GB (TB-7304X)"],
+         "responses": ["Máy tính bảng Lenovo Tab 7 Essential 16GB (TB-7304X) có giá 2.390.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: TB-7104I",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Lenovo Tab", "Tab E7", "TB-7104I", "Lenovo Tab E7 TB-7104I"],
+         "responses": ["Máy tính bảng Lenovo Tab E7 TB-7104I có giá 1.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Masstel Tab10 Plus",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Masstel Tab10", "Tab10 Plus", "Masstel Tab10 Plus"],
+         "responses": ["Máy tính bảng Masstel Tab10 Plus có giá 2.490.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Masstel Tab8 Plus",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Masstel Tab8", "Tab8 Plus", "Masstel Tab8 Plus"],
+         "responses": ["Máy tính bảng Masstel Tab8 Plus có giá 1.990.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Mobell Tab 10",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Mobell Tab", "Tab 10", "Mobell Tab 10"],
+         "responses": ["Máy tính bảng Mobell Tab 10 có giá 2.750.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Mobell Tab 8 Pro",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Mobell Tab", "Tab 8", "Mobell Tab 8 Pro"],
+         "responses": ["Máy tính bảng Mobell Tab 8 Pro có giá 2.650.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Mobell Tab 8A",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Mobell Tab", "Tab 8A", "Mobell Tab 8A"],
+         "responses": ["Máy tính bảng Mobell Tab 8A có giá 2.190.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Giá: Mobell Tab 7s",
+         "patterns": ["giá máy", "giá tiền", "bao nhiêu tiền", "Mobell Tab", "Tab 7s", "Mobell Tab 7s"],
+         "responses": ["Máy tính bảng Mobell Tab 7s có giá 1.690.000 đồng"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: iPad Pro 11 inch Wifi 256GB (2018)",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "iPad Pro", "iPad Pro 11", "Wifi Cellular 64GB (2018)"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng iPad Pro 11 inch Wifi 256GB (2018):\nMàn hình:\tLiquid Retina display, 11\"\nHệ điều hành:\tiOS 12\nCPU:\tApple A12X Bionic 64-bit\nRAM:\t4 GB\nBộ nhớ trong:\t256 GB\nCamera sau:\t12 MP\nCamera trước:\t7 MP\nKết nối mạng:\tWiFi, Không hỗ trợ 3G, Không hỗ trợ 4G\nĐàm thoại:\tCó\nTrọng lượng:\t468 g"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: iPad Pro 11 inch Wifi Cellular 64GB (2018)",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "iPad Pro", "iPad Pro 11", "Wifi 64GB (2018)"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng iPad Pro 11 inch Wifi Cellular 64GB (2018):\nMàn hình:\tLiquid Retina display, 11\"\nHệ điều hành:\tiOS 12\nCPU\tApple A12X Bionic 64-bit\nRAM:\t4 GB\nBộ nhớ trong:\t64 GB\nCamera sau:\t12 MP\nCamera trước:\t7 MP\nKết nối mạng:\tWiFi, 3G, 4G LTE\nHỗ trợ SIM: \tNano Sim"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: iPad Pro 11 inch Wifi 64GB (2018)",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "iPad Pro", "iPad Pro", "iPad Pro 11", "Wifi 64GB (2018)"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng iPad Pro 11 inch Wifi 64GB (2018):\nMàn hình:\tLiquid Retina display, 11\"\nHệ điều hành:\tiOS 12\nCPU:\tApple A12X Bionic 64-bit\nRAM:\t4 GB\nBộ nhớ trong:\t64 GB\nCamera sau:\t12 MP\nCamera trước:\t7 MP\nKết nối mạng:\tWiFi, Không hỗ trợ 3G, Không hỗ trợ 4G\nĐàm thoại:\tFaceTime\nTrọng lượng:\t468 g"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: iPad Pro 10.5 inch Wifi 64GB (2017)",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "iPad Pro", "iPad Pro 10.5", "Wifi 64GB (2017)"],
+         "responses": ["Máy tính bảng iPad Pro 10.5 inch Wifi 64GB (2017):\nMàn hình:\tIPS LCD, 10.5\"\nHệ điều hành:\tiOS 12\nCPU:\tApple A10X 6 nhân 64-bit\nRAM:\t4 GB\nBộ nhớ trong:\t64 GB\nCamera sau:\t12 MP\nCamera trước:\t7 MP\nKết nối mạng:\tWiFi, Không hỗ trợ 3G, Không hỗ trợ 4G\nĐàm thoại:\tFaceTime\nTrọng lượng:\t469 g"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: iPad Mini 7.9 inch Wifi Cellular 64GB (2019)",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "iPad Mini", "iPad Mini 7.9", "Wifi Cellular 64GB (2019)"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng iPad Mini 7.9 inch Wifi Cellular 64GB (2019):\nMàn hình:\tLED backlit LCD, 7.9\"\nHệ điều hành:\tiOS 12\nCPU:\tApple A12 Bionic 6 nhân, 2 nhân 2.5 GHz Vortex & 4 nhân 1.6 GHz Tempest\nRAM:\t3 GB\nBộ nhớ trong:\t64 GB\nCamera sau:\t8 MP\nCamera trước:\t7 MP\nKết nối mạng:\tWiFi, 3G, Hỗ trợ 4G\nHỗ trợ SIM: \tNano SIM + eSIM"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Samsung Galaxy Tab S5E T725 (2019)",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Galaxy Tab", "S5E", "Samsung Galaxy Tab S5E T725 (2019)"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Samsung Galaxy Tab S5E T725 (2019):\nMàn hình:\tSuper AMOLED, 10.5\"\nHệ điều hành:\tAndroid 9.0 (Pie)\nCPU:\tQualcomm Snapdragon 670, 2 nhân 2.0 GHz & 6 nhân 1.7 GHz\nRAM:\t4 GB\nBộ nhớ trong:\t64 GB\nCamera sau:\t13 MP\nCamera trước:\t8 MP\nKết nối mạng:\tWiFi, 3G, 4G LTE\nHỗ trợ SIM:\tNano Sim"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Samsung Galaxy Tab A 10.5 Inch",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Galaxy Tab", "Galaxy Tab A", "Samsung Galaxy Tab A 10.5"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Samsung Galaxy Tab A 10.5:\nMàn hình:\tIPS LCD, 10.5\"\nHệ điều hành:\tAndroid 8.0\nCPU:\tCPU 8 nhân, 1.8 GHz\nRAM:\t3 GB\nBộ nhớ trong:\t32 GB\nCamera sau:\t8 MP\nCamera trước:\t5 MP\nKết nối mạng:\tWiFi, 3G, Hỗ trợ 4G\nHỗ trợ SIM:\tNano Sim"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Samsung Galaxy Tab A 10.1 T515 (2019)",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Galaxy Tab", "Galaxy Tab A", "Tab A 10.1", "Samsung Galaxy Tab A 10.1 T515 (2019)"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Samsung Galaxy Tab A 10.1 T515 (2019):\nMàn hình:\tTFT LCD, 10.1\"\nHệ điều hành:\tAndroid 9.0 (Pie)\nCPU:\tExynos 7904, 2 nhân 1.8 GHz & 6 nhân 1.6 GHz\nRAM:\t3 GB\nBộ nhớ trong:\t32 GB\nCamera sau:\t8 MP\nCamera trước:\t5 MP\nKết nối mạng:\tWiFi, 3G, 4G LTE\nHỗ trợ SIM:\tNano Sim\n"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Samsung Galaxy Tab A6 10.1 Spen",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Galaxy Tab", "Galaxy Tab A6", "Tab A6 10.1", "Spen", "Samsung Galaxy Tab A6 10.1 Spen"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Samsung Galaxy Tab A6 10.1 Spen:\nMàn hình:\tTFT LCD, 10.1\"\nHệ điều hành:\tAndroid 6.0 (Marshmallow)\nCPU:\tExynos 7870 8 nhân, 1.6 GHz\nRAM:\t3 GB\nBộ nhớ trong:\t16 GB\nCamera sau:\t8 MP\nCamera trước:\t2 MP\nKết nối mạng:\tWiFi, 3G, 4G LTE\nHỗ trợ SIM:\tNano Sim"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Samsung Galaxy Tab A plus 8 SPen (2019)",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Galaxy Tab", "Galaxy Tab A", "Tab A Plus", "Plus 8", "Spen", "Samsung Galaxy Tab A plus 8 SPen (2019)"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Samsung Galaxy Tab A plus 8 SPen (2019):\nMàn hình:\tWUXGA TFT, 8\"\nHệ điều hành:\tAndroid 9.0 (Pie)\nCPU:\tExynos 7904, 2 nhân 1.8 GHz & 6 nhân 1.6 GHz\nRAM:\t3 GB\nBộ nhớ trong:\t32 GB\nCamera sau:\t8 MP\nCamera trước:\t5 MP\nKết nối mạng:\tWiFi, 3G, 4G LTE\nHỗ trợ SIM:\tNano Sim"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Huawei Mediapad T5 10.1 inch",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Mediapad", "Mediapad T5", "T5 10.1", "Huawei Mediapad T5 10.1"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Huawei Mediapad T5 10.1 inch:\nMàn hình:\tIPS LCD Full HD, 10.1\"\nHệ điều hành:\tAndroid 8.0\nCPU:\tKirin 659, 1.7 GHz\nRAM:\t3 GB\nBộ nhớ trong:\t32 GB\nCamera sau:\t5 MP\nCamera trước:\t2 MP\nKết nối mạng:\tWiFi, 3G, 4G LTE\nHỗ trợ SIM:\tMicro sim"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Huawei MediaPad T3 10 (2017)",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Mediapad", "Mediapad T3", "T3 10", "Huawei MediaPad T3 10 (2017)"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Huawei MediaPad T3 10 (2017):\nMàn hình:\tPLS LCD, 10\"\nHệ điều hành:\tAndroid 7.0\nCPU:\tQualcomm MSM8917, 1.4 GHz\nRAM:\t2 GB\nBộ nhớ trong:\t16 GB\nCamera sau:\t5 MP\nCamera trước:\t2 MP\nKết nối mạng:\tWiFi, 3G, 4G LTE\nHỗ trợ SIM:\tNano Sim"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Huawei MediaPad T3 8.0 (2017)",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Mediapad", "Mediapad T3", "T3 8", "Huawei MediaPad T3 8.0 (2017)"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Huawei MediaPad T3 8.0 (2017):\nMàn hình:\tIPS LCD, 8\"\nHệ điều hành:\tAndroid 7.0\nCPU:\tQualcomm MSM8917, 1.4 GHz\nRAM:\t2 GB\nBộ nhớ trong:\t16 GB\nCamera sau:\t5 MP\nCamera trước:\t2 MP\nKết nối mạng:\tWiFi, 3G, 4G LTE\nHỗ trợ SIM:\tNano Sim"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Huawei MediaPad T3 7 (2019)",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Mediapad", "Mediapad T3", "T3 7", "Huawei MediaPad T3 7 (2019)"],
+         "responses": ["Máy tính bảng Huawei MediaPad T3 7 (2019):\nMàn hình:\tIPS LCD, 7\"\nHệ điều hành:\tAndroid 7.0\nCPU:\tSpreadtrum SC7731G 4 nhân, 1.33 GHz\nRAM:\t2 GB\nBộ nhớ trong:\t16 GB\nCamera sau:\t5 MP\nCamera trước:\t2 MP\nKết nối mạng:\tWiFi, 3G, Không hỗ trợ 4G\nHỗ trợ SIM:\tMicro sim"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: TB-X104L",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Lenovo Tab", "Tab E10", "TB-X104L", "Lenovo Tab E10 TB-X104L"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Lenovo Tab E10 TB-X104L Đen:\nMàn hình:\tIPS LCD, 10.1\"\nHệ điều hành:\tAndroid 8.0\nCPU:\tQualcomm MSM8909, 1.33 GHz\nRAM:\t2 GB\nBộ nhớ trong:\t16 GB\nCamera sau:\t5 MP\nCamera trước:\t2 MP\nKết nối mạng:\tWiFi, 3G, 4G LTE\nHỗ trợ SIM:\tNano Sim"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: TB-8504X",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Lenovo Tab", "Tab 4", "TB-8504X", "Lenovo Tab 4 8 16GB (TB-8504X)"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Lenovo Tab 4 8 16GB (TB-8504X):\nMàn hình:\tIPS LCD, 8\"\nHệ điều hành:\tAndroid 7.0\nCPU:\tQualcomm MSM8917, 1.4 GHz\nRAM:\t2 GB\nBộ nhớ trong:\t16 GB\nCamera sau:\t5 MP\nCamera trước:\t2 MP\nKết nối mạng:\tWiFi, 3G, 4G LTE\nHỗ trợ SIM:\tNano SIM, SIM 2 chung khe thẻ nhớ"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: TB-7304X",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "TB-7304X", "Lenovo Tab", "Tab 7", "Essential", "Lenovo Tab 7 Essential 16GB (TB-7304X)"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Lenovo Tab 7 Essential 16GB (TB-7304X):\nMàn hình:\tIPS LCD, 7\"\nHệ điều hành:\tAndroid 7.0\nCPU:\tMediaTek MT 8735D 4 nhân, 1.1 GHz\nRAM:\t1 GB\nBộ nhớ trong:\t16 GB\nCamera sau:\t2 MP\nCamera trước:\t2 MP\nKết nối mạng:\tWiFi, 3G, 4G LTE\nHỗ trợ SIM:\tMicro sim"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: TB-7104I",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Lenovo Tab", "Tab E7", "TB-7104I", "Lenovo Tab E7 TB-7104I"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Lenovo Tab E7 TB-7104I:\nMàn hình:\tIPS LCD, 7\"\nHệ điều hành:\tAndroid Go 8.1\nCPU:\tMediatek MT8167D, 1.3 GHz\nRAM:\t1 GB\nBộ nhớ trong:\t16 GB\nCamera sau:\t2 MP\nCamera trước:\t0.3 MP\nKết nối mạng:\tWiFi, 3G, Không hỗ trợ 4G\nHỗ trợ SIM:\tSIM thường"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Masstel Tab10 Plus",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Masstel Tab10", "Tab10 Plus", "Masstel Tab10 Plus"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Masstel Tab10 Plus:\nMàn hình:\tIPS LCD, 10.1\"\nHệ điều hành:\tAndroid Go 8.1\nCPU:\tMTK 6580, 1.3 GHz\nRAM:\t1 GB\nBộ nhớ trong:\t8 GB\nCamera sau:\t8 MP\nCamera trước:\t2 MP\nKết nối mạng:\tWiFi, 3G, Không hỗ trợ 4G\nHỗ trợ SIM:\tSIM thường\n"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Masstel Tab8 Plus",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Masstel Tab8", "Tab8 Plus", "Masstel Tab8 Plus"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Masstel Tab8 Plus:\nMàn hình:\tIPS LCD, 8\"\nHệ điều hành:\tAndroid Go 8.1\nCPU:\tMT8321, 1.3 GHz\nRAM:\t1 GB\nBộ nhớ trong:\t8 GB\nCamera sau:\t5 MP\nCamera trước:\t2 MP\nKết nối mạng:\tWiFi, 3G, Không hỗ trợ 4G\nHỗ trợ SIM:\tMicro sim"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Mobell Tab 10",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Mobell Tab", "Tab 10", "Mobell Tab 10"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Mobell Tab 10:\nMàn hình:\tIPS LCD, 10.1\"\nHệ điều hành:\tAndroid 8.1\nCPU:\tMTK 8321 4 nhân, 1.3 GHz\nRAM:\t1 GB\nBộ nhớ trong:\t16 GB\nCamera sau:\t5 MP\nCamera trước:\t2 MP\nKết nối mạng:\tWiFi, 3G, Không hỗ trợ 4G\nHỗ trợ SIM:\t2 sim - Loại sim thường\n"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Mobell Tab 8 Pro",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Mobell Tab", "Tab 8", "Mobell Tab 8 Pro"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Mobell Tab 8 Pro:\nMàn hình:\tIPS LCD, 8\"\nHệ điều hành:\tAndroid 5.1\nCPU:\tMTK 8321 4 nhân, 1.33 GHz\nRAM:\t1 GB\nBộ nhớ trong:\t16 GB\nCamera sau:\t8 MP\nCamera trước:\t5 MP\nKết nối mạng:\tWiFi, 3G, Không hỗ trợ 4G\nHỗ trợ SIM:\tNano SIM, SIM 2 chung khe thẻ nhớ\n"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Mobell Tab 8A",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Mobell Tab", "Tab 8A", "Mobell Tab 8A"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Mobell Tab 8A:\nMàn hình:\tIPS LCD, 8\"\nHệ điều hành:\tAndroid 8.1\nCPU:\tMTK 8321 4 nhân, 1.3 GHz\nRAM:\t1 GB\nBộ nhớ trong:\t8 GB\nCamera sau:\t5 MP\nCamera trước:\t2 MP\nKết nối mạng:\tWiFi, 3G, Không hỗ trợ 4G\nHỗ trợ SIM:\tMicro SIM, SIM 2 chung khe thẻ nhớ"],
+         "context_set": ""
+        },
+        {"tag": "Cấu hình: Mobell Tab 7s",
+         "patterns": ["cấu hình máy", "thông số kỹ thuật", "Mobell Tab", "Tab 7s", "Mobell Tab 7s"],
+         "responses": ["Thông số kỹ thuật của Máy tính bảng Mobell Tab 7s:\nMàn hình:\tIPS LCD, 7\"\nHệ điều hành:\tAndroid 6.0 (Marshmallow)\nCPU:\tMTK 8321 4 nhân, 1.3 GHz\nRAM:\t1 GB\nBộ nhớ trong:\t8 GB\nCamera sau:\t2 MP\nCamera trước:\t0.3 MP\nKết nối mạng:\tWiFi, 3G, Không hỗ trợ 4G\nHỗ trợ SIM:\tSIM thường"],
+         "context_set": ""
+        }
+   ]
+}
